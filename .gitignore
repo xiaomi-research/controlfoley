@@ -1,0 +1,9 @@
+output/
+model_weights/
+weights/
+ext_weights/
+.idea/
+.vscode/
+**/__pycache__/
+.DS_Store
+
