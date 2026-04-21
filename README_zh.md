@@ -70,7 +70,7 @@
 - [2026-04] [项目页面](https://yjx-research.github.io/ControlFoley_web_page/) 已上线。
 - [2026-04] [推理代码](https://github.com/xiaomi-research/controlfoley) 和 [预训练模型](https://huggingface.co/YJX-Xiaomi/ControlFoley) 已发布。
 - [2026-04] 在线推理已上线于 [项目推理接口](https://yjx-research.github.io/ControlFoley_web_page/#try-gen)，即刻体验！
-- [即将推出] Skill 即将发布。
+- [2026-04] 发布 skill [ControlFoley Audio Generator](https://clawhub.ai/yjx-research/controlfoley-audio-generator)。
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
 
@@ -80,7 +80,7 @@
 - [x] 发布项目页面。
 - [x] 发布推理代码与预训练模型。
 - [x] 发布在线推理代码（可在项目页面获取）。
-- [ ] 发布 skill。
+- [x] 发布 skill。
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
 
