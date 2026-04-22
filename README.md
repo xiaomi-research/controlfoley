@@ -18,6 +18,8 @@
   <a href="https://yjx-research.github.io/ControlFoley/" style="text-decoration:none"><img src="https://img.shields.io/badge/Demo Page-Demo-blue" alt="Demo Page"/></a>
   &nbsp;
   <a href="https://huggingface.co/YJX-Xiaomi/ControlFoley" style="text-decoration:none"><img src="https://img.shields.io/badge/HuggingFace-Models-orange?logo=huggingface" alt="Hugging Face"/></a>
+  &nbsp;
+  <a href="https://clawhub.ai/yjx-research/controlfoley-audio-generator" style="text-decoration:none"><img src="https://img.shields.io/badge/ClawHub-ClawHub-red" alt="ClawHub"/></a>
 </p>
 
 </div>
