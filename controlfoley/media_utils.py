@@ -92,7 +92,8 @@ def extract_video_segments(video_file: Path, target_fps_list: List[float],
             if not video_stream:
                 raise ValueError("No video stream found in the file")
                 
-            detected_fps = video_stream.guessed_rate
+            # detected_fps = video_stream.guessed_rate
+            detected_fps = video_stream.average_rate or video_stream.guessed_rate
             video_stream.thread_type = 'AUTO'
             
             for data_packet in video_container.demux(video_stream):
@@ -131,66 +132,118 @@ def extract_video_segments(video_file: Path, target_fps_list: List[float],
     return processed_frames, complete_frame_list, detected_fps
 
 
-def encode_media_with_sound(media_data: MediaClipData, output_file: Path, 
-                           audio_data: torch.Tensor, sample_rate: int):
-    """
-    Encode video with audio data, including safety validations
-    """
+def encode_media_with_sound(media_data: MediaClipData, output_file: Path,
+                            audio_data: torch.Tensor, sample_rate: int):
+    """Encode video frames + audio tensor into mp4. fps/pts 全部显式钉死。"""
     if not media_data or not media_data.frame_sequence:
         raise ValueError("Invalid media data or empty frame sequence")
-    
     if audio_data is None or audio_data.numel() == 0:
         raise ValueError("Invalid audio data provided")
-    
     if sample_rate <= 0:
         raise ValueError("Sample rate must be positive")
-    
+
+    # 把 frame_rate 规范化成 Fraction
+    fps = Fraction(media_data.frame_rate).limit_denominator(60000)
+    if fps <= 0:
+        raise ValueError(f"Invalid fps: {fps}")
+
+    # 用 90000 作 mp4 video timescale —— mp4 muxer 不会再改写
+    VIDEO_TIMESCALE = 90000
+    # 每帧在 timescale 下的 tick 数；为了避免浮点误差，用 Fraction 精算
+    ticks_per_frame_frac = Fraction(VIDEO_TIMESCALE) * Fraction(fps.denominator, fps.numerator)
+    # 必须是整数，否则用更大的 timescale。常见 fps 都能整除：
+    # 24→3750, 25→3600, 30→3000, 50→1800, 60→1500, 23.976(24000/1001)→3753.75 ✗
+    if ticks_per_frame_frac.denominator != 1:
+        # 23.976 这类非整数：直接用 1/fps 作 stream time_base，pts=帧号
+        VIDEO_TIMESCALE = fps.numerator
+        stream_tb = Fraction(1, fps.numerator)
+        ticks_per_frame = fps.denominator
+    else:
+        stream_tb = Fraction(1, VIDEO_TIMESCALE)
+        ticks_per_frame = int(ticks_per_frame_frac)
+
+    output_container = av.open(str(output_file), 'w')
     try:
-        output_container = av.open(str(output_file), 'w')
-        
-        # Configure video stream
-        video_stream = output_container.add_stream('h264', media_data.frame_rate)
-        video_stream.codec_context.bit_rate = 10 * 1000000  # 10 Mbps
+        # 视频流：跳过 add_stream(codec, rate) 糖，自己设
+        video_stream = output_container.add_stream('h264')
         video_stream.width = media_data.frame_width
         video_stream.height = media_data.frame_height
         video_stream.pix_fmt = 'yuv420p'
+        video_stream.time_base = stream_tb
+        # codec_context 上同时钉 framerate + time_base
+        video_stream.codec_context.framerate = fps
+        video_stream.codec_context.time_base = stream_tb
+        video_stream.codec_context.bit_rate = 10 * 1_000_000
 
-        # Configure audio stream
         audio_stream = output_container.add_stream('aac', sample_rate)
 
-        # Encode video frames
-        for image_frame in media_data.frame_sequence:
-            try:
-                av_frame = av.VideoFrame.from_ndarray(image_frame)
-                encoded_packet = video_stream.encode(av_frame)
-                output_container.mux(encoded_packet)
-            except Exception as e:
-                raise RuntimeError(f"Failed to encode video frame: {e}")
+        # 每帧 pts 用 stream timescale 的整数 tick
+        for i, image_frame in enumerate(media_data.frame_sequence):
+            av_frame = av.VideoFrame.from_ndarray(image_frame, format='rgb24')
+            av_frame.pts = i * ticks_per_frame
+            av_frame.time_base = stream_tb
+            for pkt in video_stream.encode(av_frame):
+                output_container.mux(pkt)
+        for pkt in video_stream.encode():
+            output_container.mux(pkt)
 
-        # Finalize video encoding
-        for final_packet in video_stream.encode():
-            output_container.mux(final_packet)
-
-        # Convert and encode audio
-        try:
-            audio_numpy = audio_data.numpy().astype(np.float32)
-            audio_frame = AudioFrame.from_ndarray(audio_numpy, format='flt', layout='mono')
-            audio_frame.sample_rate = sample_rate
-
-            for audio_packet in audio_stream.encode(audio_frame):
-                output_container.mux(audio_packet)
-
-            for final_audio_packet in audio_stream.encode():
-                output_container.mux(final_audio_packet)
-        except Exception as e:
-            raise RuntimeError(f"Failed to encode audio: {e}")
-
+        audio_numpy = audio_data.numpy().astype(np.float32)
+        if audio_numpy.ndim == 1:
+            audio_numpy = audio_numpy[np.newaxis, :]
+        audio_frame = AudioFrame.from_ndarray(audio_numpy, format='flt', layout='mono')
+        audio_frame.sample_rate = sample_rate
+        for pkt in audio_stream.encode(audio_frame):
+            output_container.mux(pkt)
+        for pkt in audio_stream.encode():
+            output_container.mux(pkt)
+    finally:
         output_container.close()
+    # try:
+    #     output_container = av.open(str(output_file), 'w')
         
-    except Exception as e:
-        if 'output_container' in locals():
-            output_container.close()
-        raise RuntimeError(f"Error during media encoding: {e}")
+    #     # Configure video stream
+    #     video_stream = output_container.add_stream('h264', media_data.frame_rate)
+    #     video_stream.codec_context.bit_rate = 10 * 1000000  # 10 Mbps
+    #     video_stream.width = media_data.frame_width
+    #     video_stream.height = media_data.frame_height
+    #     video_stream.pix_fmt = 'yuv420p'
+
+    #     # Configure audio stream
+    #     audio_stream = output_container.add_stream('aac', sample_rate)
+
+    #     # Encode video frames
+    #     for image_frame in media_data.frame_sequence:
+    #         try:
+    #             av_frame = av.VideoFrame.from_ndarray(image_frame)
+    #             encoded_packet = video_stream.encode(av_frame)
+    #             output_container.mux(encoded_packet)
+    #         except Exception as e:
+    #             raise RuntimeError(f"Failed to encode video frame: {e}")
+
+    #     # Finalize video encoding
+    #     for final_packet in video_stream.encode():
+    #         output_container.mux(final_packet)
+
+    #     # Convert and encode audio
+    #     try:
+    #         audio_numpy = audio_data.numpy().astype(np.float32)
+    #         audio_frame = AudioFrame.from_ndarray(audio_numpy, format='flt', layout='mono')
+    #         audio_frame.sample_rate = sample_rate
+
+    #         for audio_packet in audio_stream.encode(audio_frame):
+    #             output_container.mux(audio_packet)
+
+    #         for final_audio_packet in audio_stream.encode():
+    #             output_container.mux(final_audio_packet)
+    #     except Exception as e:
+    #         raise RuntimeError(f"Failed to encode audio: {e}")
+
+    #     output_container.close()
+        
+    # except Exception as e:
+    #     if 'output_container' in locals():
+    #         output_container.close()
+    #     raise RuntimeError(f"Error during media encoding: {e}")
 
 
 def remux_video_with_audio(input_video: Path, audio_tensor: torch.Tensor, 
