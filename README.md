@@ -90,6 +90,10 @@ If you find this project useful, please consider giving a star ⭐️~
 
 https://github.com/user-attachments/assets/36719873-32ca-4265-8bb7-91e6cb5ed835
 
+<video width="100%" controls playsinline>
+  <source src="https://github.com/user-attachments/assets/36719873-32ca-4265-8bb7-91e6cb5ed835" type="video/mp4">
+</video>
+
 For more results of our model, visit [Project Page](https://yjx-research.github.io/ControlFoley_web_page/). For comparison with other methods, visit [Demo Page](https://yjx-research.github.io/ControlFoley/).
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
