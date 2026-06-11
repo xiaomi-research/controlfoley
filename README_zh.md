@@ -88,7 +88,7 @@
 
 ## 📺 **介绍视频**
 
-https://github.com/user-attachments/assets/71941984-6c88-41a1-868e-994f187b1847
+https://github.com/user-attachments/assets/344ac6ab-ecb6-41f8-88f5-728ae9ad236f
 
 如需获取本模型的更多结果, 请访问[项目界面](https://yjx-research.github.io/ControlFoley_web_page/)。 如需查看本方法与其他方法的对比结果, 请访问[Demo界面](https://yjx-research.github.io/ControlFoley/)。
 
