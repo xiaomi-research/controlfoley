@@ -9,17 +9,19 @@
 # ControlFoley: Unified and Controllable Video-to-Audio Generation with Cross-Modal Conflict Handling
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2604.15086" style="text-decoration:none"><img src="https://img.shields.io/badge/arXiv-2506.21448-b31b1b.svg" alt="arXiv"/></a>
+  <a href="https://arxiv.org/abs/2604.15086" style="text-decoration:none"><img src="https://img.shields.io/badge/arXiv-2506.21448-b31b1b.svg?logo=arxiv&logoColor=white" alt="arXiv"/></a>
   &nbsp;
-  <a href="https://github.com/xiaomi-research/controlfoley" style="text-decoration:none"><img src="https://img.shields.io/badge/GitHub.io-Code-blue?logo=Github&style=flat-square" alt="GitHub"/></a>
+  <a href="https://github.com/xiaomi-research/controlfoley" style="text-decoration:none"><img src="https://img.shields.io/badge/GitHub-Code-blue?logo=Github" alt="GitHub"/></a>
   &nbsp;
-  <a href="https://yjx-research.github.io/ControlFoley_web_page/" style="text-decoration:none"><img src="https://img.shields.io/badge/Project Page-Project-blue" alt="Project Page"/></a>
+  <a href="https://yjx-research.github.io/ControlFoley_web_page/" style="text-decoration:none"><img src="https://img.shields.io/badge/Project Page-Project-blue?logo=googledocs&logoColor=white" alt="Project Page"/></a>
   &nbsp;
-  <a href="https://yjx-research.github.io/ControlFoley/" style="text-decoration:none"><img src="https://img.shields.io/badge/Demo Page-Demo-blue" alt="Demo Page"/></a>
+  <a href="https://yjx-research.github.io/ControlFoley/" style="text-decoration:none"><img src="https://img.shields.io/badge/Demo Page-Demo-blue?logo=youtube&logoColor=white" alt="Demo Page"/></a>
   &nbsp;
   <a href="https://huggingface.co/YJX-Xiaomi/ControlFoley" style="text-decoration:none"><img src="https://img.shields.io/badge/HuggingFace-Models-orange?logo=huggingface" alt="Hugging Face"/></a>
   &nbsp;
-  <a href="https://clawhub.ai/yjx-research/controlfoley-audio-generator" style="text-decoration:none"><img src="https://img.shields.io/badge/ClawHub-ClawHub-red" alt="ClawHub"/></a>
+  <a href="https://clawhub.ai/yjx-research/controlfoley-audio-generator" style="text-decoration:none"><img src="https://img.shields.io/badge/%F0%9F%A6%9E%20ClawHub-Skill-red" alt="ClawHub Skill"/></a>
+  &nbsp;
+  <a href="https://fal.ai/models/fal-ai/controlfoley" style="text-decoration:none"><img src="https://img.shields.io/badge/fal.ai-Model-E83E8C?labelColor=3A3A3A&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCIgdmlld0JveD0iMCAwIDEyOCAxMjgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbD0iI0ZGMEQ2QSIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNDkuNSA0aDI5YzMuNSAwIDYuMiAyLjggNi41IDYuMyAyLjQgMjYuMiAxMC41IDM0LjIgMzYuNyAzNi43IDMuNS4zIDYuMyAzIDYuMyA2LjV2MjljMCAzLjUtMi44IDYuMi02LjMgNi41LTI2LjIgMi40LTM0LjIgMTAuNS0zNi43IDM2LjctLjMgMy41LTMgNi4zLTYuNSA2LjNoLTI5Yy0zLjUgMC02LjItMi44LTYuNS02LjNDNDAuNiA5OS41IDMyLjUgOTEuNCA2LjMgODkgMi44IDg4LjcgMCA4NiAwIDgyLjV2LTI5YzAtMy41IDIuOC02LjIgNi4zLTYuNUMzMi41IDQ0LjYgNDAuNiAzNi41IDQzIDEwLjMgNDMuMyA2LjggNDYgNCA0OS41IDRaTTY0IDM0YTMwIDMwIDAgMSAwIDAgNjAgMzAgMzAgMCAwIDAgMC02MFoiLz48L3N2Zz4=" alt="fal.ai Model"/></a>
 </p>
 
 </div>
@@ -73,6 +75,7 @@
 - [2026-04] [推理代码](https://github.com/xiaomi-research/controlfoley) 和 [预训练模型](https://huggingface.co/YJX-Xiaomi/ControlFoley) 已发布。
 - [2026-04] 在线推理已上线于 [项目推理接口](https://yjx-research.github.io/ControlFoley_web_page/#try-gen)，即刻体验！
 - [2026-04] 发布 skill [ControlFoley Audio Generator](https://clawhub.ai/yjx-research/controlfoley-audio-generator)。
+- [2026-07] 即将上线：由 ControlFoley 官方维护的 ComfyUI 节点，以及覆盖 V2A、TV2A、TC-V2A、AC-V2A、T2A 的完整任务工作流正在最终准备中。
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
 
@@ -83,6 +86,21 @@
 - [x] 发布推理代码与预训练模型。
 - [x] 发布在线推理代码（可在项目页面获取）。
 - [x] 发布 skill。
+- [ ] 由 ControlFoley 官方维护的 ComfyUI 节点与完整任务工作流。
+
+<hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
+
+## 🤝 **社区贡献**
+
+<div align="center">
+
+<strong>fal.ai 部署</strong> - ControlFoley 已在 fal.ai 上提供托管入口，便于快速在线试用与 API 实验：
+
+- [fal.ai/controlfoley](https://fal.ai/models/fal-ai/controlfoley) - 在 fal.ai 上试用托管的 ControlFoley 模型端点。
+
+欢迎社区贡献 workflows、integrations、tutorials 和 deployment recipes，让更多用户更方便地使用 ControlFoley。
+
+</div>
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
 
