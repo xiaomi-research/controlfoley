@@ -68,6 +68,15 @@ If you find this project useful, please consider giving a star ⭐️~
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
 
+
+## 📺 **Intro Video**
+
+https://github.com/user-attachments/assets/59056500-1711-40a9-9689-5d751767cbdc
+
+For more results of our model, visit [Project Page](https://yjx-research.github.io/ControlFoley_web_page/). For comparison with other methods, visit [Demo Page](https://yjx-research.github.io/ControlFoley/).
+
+<hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
+
 ## 📰 **News**
 
 - [2026-04] Technical report released on [arXiv](https://arxiv.org/abs/2604.15086).
@@ -101,14 +110,6 @@ If you find this project useful, please consider giving a star ⭐️~
 We welcome community workflows, integrations, tutorials, and deployment recipes that help more users build with ControlFoley.
 
 </div>
-
-<hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
-
-## 📺 **Intro Video**
-
-https://github.com/user-attachments/assets/59056500-1711-40a9-9689-5d751767cbdc
-
-For more results of our model, visit [Project Page](https://yjx-research.github.io/ControlFoley_web_page/). For comparison with other methods, visit [Demo Page](https://yjx-research.github.io/ControlFoley/).
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
 
