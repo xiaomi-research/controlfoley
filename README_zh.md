@@ -83,7 +83,7 @@ https://github.com/user-attachments/assets/344ac6ab-ecb6-41f8-88f5-728ae9ad236f
 - [2026-04] [推理代码](https://github.com/xiaomi-research/controlfoley) 和 [预训练模型](https://huggingface.co/YJX-Xiaomi/ControlFoley) 已发布。
 - [2026-04] 在线推理已上线于 [项目推理接口](https://yjx-research.github.io/ControlFoley_web_page/#try-gen)，即刻体验！
 - [2026-04] 发布 skill [ControlFoley Audio Generator](https://clawhub.ai/yjx-research/controlfoley-audio-generator)。
-- [2026-07] 即将上线：由 ControlFoley 官方维护的 ComfyUI 节点，以及覆盖 V2A、TV2A、TC-V2A、AC-V2A、T2A 的完整任务工作流正在最终准备中。
+- [2026-07] 由 ControlFoley 官方维护的 [ComfyUI 节点与完整任务工作流](https://github.com/YJX-Research/comfyui-controlfoley-official) 已发布，覆盖 V2A、TV2A、TC-V2A、AC-V2A 与 T2A。
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
 
@@ -94,7 +94,7 @@ https://github.com/user-attachments/assets/344ac6ab-ecb6-41f8-88f5-728ae9ad236f
 - [x] 发布推理代码与预训练模型。
 - [x] 发布在线推理代码（可在项目页面获取）。
 - [x] 发布 skill。
-- [ ] 由 ControlFoley 官方维护的 ComfyUI 节点与完整任务工作流。
+- [x] 发布由 ControlFoley 官方维护的 ComfyUI 节点与完整任务工作流。
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
 
@@ -105,6 +105,10 @@ https://github.com/user-attachments/assets/344ac6ab-ecb6-41f8-88f5-728ae9ad236f
 <strong>fal.ai 部署</strong> - ControlFoley 已在 fal.ai 上提供托管入口，便于快速在线试用与 API 实验：
 
 - [fal.ai/controlfoley](https://fal.ai/models/fal-ai/controlfoley) - 在 fal.ai 上试用托管的 ControlFoley 模型端点。
+
+<strong>官方 ComfyUI 集成</strong> - ControlFoley 团队官方发布并维护 ComfyUI 自定义节点与完整任务工作流，覆盖 V2A、TV2A、TC-V2A、AC-V2A 与 T2A：
+
+- [YJX-Research/comfyui-controlfoley-official](https://github.com/YJX-Research/comfyui-controlfoley-official) - 在 ComfyUI 中运行 ControlFoley，并使用开箱即用的工作流与示例素材。如果这个集成对你有帮助，欢迎给 ComfyUI 仓库和本 ControlFoley 仓库点亮 ⭐。
 
 欢迎社区贡献 workflows、integrations、tutorials 和 deployment recipes，让更多用户更方便地使用 ControlFoley。
 

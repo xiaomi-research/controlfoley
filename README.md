@@ -84,7 +84,7 @@ For more results of our model, visit [Project Page](https://yjx-research.github.
 - [2026-04] [Inference code](https://github.com/xiaomi-research/controlfoley) and [pretrained models](https://huggingface.co/YJX-Xiaomi/ControlFoley) are released.
 - [2026-04] Online demo is available on [Project Inference Interface](https://yjx-research.github.io/ControlFoley_web_page/#try-gen), let's try now!
 - [2026-04] Skill [ControlFoley Audio Generator](https://clawhub.ai/yjx-research/controlfoley-audio-generator) is released on ClawHub!
-- [2026-07] Coming soon: official ControlFoley-maintained ComfyUI nodes and full-task workflows for V2A, TV2A, TC-V2A, AC-V2A, and T2A are in final preparation.
+- [2026-07] Official ControlFoley-maintained [ComfyUI nodes and full-task workflows](https://github.com/YJX-Research/comfyui-controlfoley-official) for V2A, TV2A, TC-V2A, AC-V2A, and T2A are released.
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
 
@@ -95,7 +95,7 @@ For more results of our model, visit [Project Page](https://yjx-research.github.
 - [x] Release inference code and pretrained models.
 - [x] Launch online inference demo (available on project page).
 - [x] Release skill.
-- [ ] Official ControlFoley-maintained ComfyUI nodes and full-task workflows.
+- [x] Release official ControlFoley-maintained ComfyUI nodes and full-task workflows.
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
 
@@ -106,6 +106,10 @@ For more results of our model, visit [Project Page](https://yjx-research.github.
 <strong>fal.ai Deployment</strong> - ControlFoley is available on fal.ai for quick online trials and API-based experiments:
 
 - [fal.ai/controlfoley](https://fal.ai/models/fal-ai/controlfoley) - Try the hosted ControlFoley model endpoint on fal.ai.
+
+<strong>Official ComfyUI Integration</strong> - The ControlFoley team officially publishes and maintains ComfyUI custom nodes and full-task workflows for V2A, TV2A, TC-V2A, AC-V2A, and T2A:
+
+- [YJX-Research/comfyui-controlfoley-official](https://github.com/YJX-Research/comfyui-controlfoley-official) - Run ControlFoley in ComfyUI with ready-to-use workflows and demo assets. If this integration is useful, please consider starring both the ComfyUI repository and this ControlFoley repository.
 
 We welcome community workflows, integrations, tutorials, and deployment recipes that help more users build with ControlFoley.
 
