@@ -21,9 +21,9 @@
   &nbsp;
   <a href="https://clawhub.ai/yjx-research/controlfoley-audio-generator" style="text-decoration:none"><img src="https://img.shields.io/badge/%F0%9F%A6%9E%20ClawHub-Skill-red" alt="ClawHub Skill"/></a>
   &nbsp;
-  <a href="https://fal.ai/models/fal-ai/controlfoley" style="text-decoration:none"><img src="https://img.shields.io/badge/fal.ai-Model-E83E8C?labelColor=3A3A3A&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCIgdmlld0JveD0iMCAwIDEyOCAxMjgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbD0iI0ZGMEQ2QSIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNDkuNSA0aDI5YzMuNSAwIDYuMiAyLjggNi41IDYuMyAyLjQgMjYuMiAxMC41IDM0LjIgMzYuNyAzNi43IDMuNS4zIDYuMyAzIDYuMyA2LjV2MjljMCAzLjUtMi44IDYuMi02LjMgNi41LTI2LjIgMi40LTM0LjIgMTAuNS0zNi43IDM2LjctLjMgMy41LTMgNi4zLTYuNSA2LjNoLTI5Yy0zLjUgMC02LjItMi44LTYuNS02LjNDNDAuNiA5OS41IDMyLjUgOTEuNCA2LjMgODkgMi44IDg4LjcgMCA4NiAwIDgyLjV2LTI5YzAtMy41IDIuOC02LjIgNi4zLTYuNUMzMi41IDQ0LjYgNDAuNiAzNi41IDQzIDEwLjMgNDMuMyA2LjggNDYgNCA0OS41IDRaTTY0IDM0YTMwIDMwIDAgMSAwIDAgNjAgMzAgMzAgMCAwIDAgMC02MFoiLz48L3N2Zz4=" alt="fal.ai Model"/></a>
-  &nbsp;
   <a href="https://github.com/YJX-Research/comfyui-controlfoley-official" style="text-decoration:none"><img src="https://img.shields.io/badge/ComfyUI-Official%20Nodes-111111.svg?logo=github&amp;logoColor=white" alt="ComfyUI Official Nodes"/></a>
+  &nbsp;
+  <a href="https://fal.ai/models/fal-ai/controlfoley" style="text-decoration:none"><img src="https://img.shields.io/badge/fal.ai-Model-E83E8C?labelColor=3A3A3A&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCIgdmlld0JveD0iMCAwIDEyOCAxMjgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbD0iI0ZGMEQ2QSIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNDkuNSA0aDI5YzMuNSAwIDYuMiAyLjggNi41IDYuMyAyLjQgMjYuMiAxMC41IDM0LjIgMzYuNyAzNi43IDMuNS4zIDYuMyAzIDYuMyA2LjV2MjljMCAzLjUtMi44IDYuMi02LjMgNi41LTI2LjIgMi40LTM0LjIgMTAuNS0zNi43IDM2LjctLjMgMy41LTMgNi4zLTYuNSA2LjNoLTI5Yy0zLjUgMC02LjItMi44LTYuNS02LjNDNDAuNiA5OS41IDMyLjUgOTEuNCA2LjMgODkgMi44IDg4LjcgMCA4NiAwIDgyLjV2LTI5YzAtMy41IDIuOC02LjIgNi4zLTYuNUMzMi41IDQ0LjYgNDAuNiAzNi41IDQzIDEwLjMgNDMuMyA2LjggNDYgNCA0OS41IDRaTTY0IDM0YTMwIDMwIDAgMSAwIDAgNjAgMzAgMzAgMCAwIDAgMC02MFoiLz48L3N2Zz4=" alt="fal.ai Model"/></a>
 </p>
 
 </div>
@@ -102,19 +102,15 @@ https://github.com/user-attachments/assets/344ac6ab-ecb6-41f8-88f5-728ae9ad236f
 
 ## 🤝 **社区贡献**
 
-<div align="center">
+<strong>官方 ComfyUI 集成</strong> - ControlFoley 团队官方发布并维护 ComfyUI 自定义节点与完整任务工作流，覆盖 V2A、TV2A、TC-V2A、AC-V2A 与 T2A：
+
+- [YJX-Research/comfyui-controlfoley-official](https://github.com/YJX-Research/comfyui-controlfoley-official) - 在 ComfyUI 中运行 ControlFoley，并使用开箱即用的工作流与示例素材。如果这个集成对你有帮助，欢迎给 ComfyUI 仓库和本 ControlFoley 仓库点亮 ⭐。
 
 <strong>fal.ai 部署</strong> - ControlFoley 已在 fal.ai 上提供托管入口，便于快速在线试用与 API 实验：
 
 - [fal.ai/controlfoley](https://fal.ai/models/fal-ai/controlfoley) - 在 fal.ai 上试用托管的 ControlFoley 模型端点。
 
-<strong>官方 ComfyUI 集成</strong> - ControlFoley 团队官方发布并维护 ComfyUI 自定义节点与完整任务工作流，覆盖 V2A、TV2A、TC-V2A、AC-V2A 与 T2A：
-
-- [YJX-Research/comfyui-controlfoley-official](https://github.com/YJX-Research/comfyui-controlfoley-official) - 在 ComfyUI 中运行 ControlFoley，并使用开箱即用的工作流与示例素材。如果这个集成对你有帮助，欢迎给 ComfyUI 仓库和本 ControlFoley 仓库点亮 ⭐。
-
 欢迎社区贡献 workflows、integrations、tutorials 和 deployment recipes，让更多用户更方便地使用 ControlFoley。
-
-</div>
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
 
