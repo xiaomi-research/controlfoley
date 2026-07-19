@@ -86,6 +86,7 @@ For more results of our model, visit [Project Page](https://yjx-research.github.
 - [2026-04] [Inference code](https://github.com/xiaomi-research/controlfoley) and [pretrained models](https://huggingface.co/YJX-Xiaomi/ControlFoley) are released.
 - [2026-04] Online demo is available on [Project Inference Interface](https://yjx-research.github.io/ControlFoley_web_page/#try-gen), let's try now!
 - [2026-04] Skill [ControlFoley Audio Generator](https://clawhub.ai/yjx-research/controlfoley-audio-generator) is released on ClawHub!
+- [2026-07] ControlFoley has been accepted to ACM MM 2026.
 - [2026-07] Official ControlFoley-maintained [ComfyUI nodes and full-task workflows](https://github.com/YJX-Research/comfyui-controlfoley-official) for V2A, TV2A, TC-V2A, AC-V2A, and T2A are released.
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">

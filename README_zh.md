@@ -85,6 +85,7 @@ https://github.com/user-attachments/assets/344ac6ab-ecb6-41f8-88f5-728ae9ad236f
 - [2026-04] [推理代码](https://github.com/xiaomi-research/controlfoley) 和 [预训练模型](https://huggingface.co/YJX-Xiaomi/ControlFoley) 已发布。
 - [2026-04] 在线推理已上线于 [项目推理接口](https://yjx-research.github.io/ControlFoley_web_page/#try-gen)，即刻体验！
 - [2026-04] 发布 skill [ControlFoley Audio Generator](https://clawhub.ai/yjx-research/controlfoley-audio-generator)。
+- [2026-07] ControlFoley 已被 ACM MM 2026 接收。
 - [2026-07] 由 ControlFoley 官方维护的 [ComfyUI 节点与完整任务工作流](https://github.com/YJX-Research/comfyui-controlfoley-official) 已发布，覆盖 V2A、TV2A、TC-V2A、AC-V2A 与 T2A。
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
