@@ -13,7 +13,7 @@
   &nbsp;
   <a href="https://github.com/xiaomi-research/controlfoley" style="text-decoration:none"><img src="https://img.shields.io/badge/GitHub-Code-blue?logo=Github" alt="GitHub"/></a>
   &nbsp;
-  <a href="https://github.com/YJX-Research/comfyui-controlfoley-official" style="text-decoration:none"><img src="https://img.shields.io/badge/GitHub-ComfyUI-blue?logo=Github" alt="ComfyUI"/></a>
+  <a href="https://github.com/YJX-Research/comfyui-controlfoley-official" style="text-decoration:none"><kbd>ComfyUI</kbd></a>
   &nbsp;
   <a href="https://yjx-research.github.io/ControlFoley_web_page/" style="text-decoration:none"><img src="https://img.shields.io/badge/Project Page-Project-blue?logo=googledocs&logoColor=white" alt="Project Page"/></a>
   &nbsp;
