@@ -11,9 +11,9 @@
 <p align="center">
   <a href="https://arxiv.org/abs/2604.15086" style="text-decoration:none"><img src="https://img.shields.io/badge/arXiv-2506.21448-b31b1b.svg?logo=arxiv&logoColor=white" alt="arXiv"/></a>
   &nbsp;
-  <a href="https://github.com/xiaomi-research/controlfoley" style="text-decoration:none"><img src="https://img.shields.io/badge/GitHub-Code-blue?logo=Github" alt="GitHub"/></a>
+  <a href="https://github.com/YJX-Research/comfyui-controlfoley-official" style="text-decoration:none"><img src="https://badgen.net/badge/ComfyUI/Official/blue?icon=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fhomarr-labs%2Fdashboard-icons%2Fsvg%2Fcomfyui.svg" alt="ComfyUI"/></a>
   &nbsp;
-  <a href="https://github.com/YJX-Research/comfyui-controlfoley-official" style="text-decoration:none"><img src="https://badgen.net/badge/ComfyUI/Official/blue" alt="ComfyUI"/></a>
+  <a href="https://github.com/xiaomi-research/controlfoley" style="text-decoration:none"><img src="https://img.shields.io/badge/GitHub-Code-blue?logo=Github" alt="GitHub"/></a>
   &nbsp;
   <a href="https://yjx-research.github.io/ControlFoley_web_page/" style="text-decoration:none"><img src="https://img.shields.io/badge/Project Page-Project-blue?logo=googledocs&logoColor=white" alt="Project Page"/></a>
   &nbsp;
