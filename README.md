@@ -8,6 +8,8 @@
 
 # ControlFoley: Unified and Controllable Video-to-Audio Generation with Cross-Modal Conflict Handling
 
+<p align="center"><strong>ControlFoley has been accepted by ACM MM 2026.</strong></p>
+
 <p align="center">
   <a href="https://arxiv.org/abs/2604.15086" style="text-decoration:none"><img src="https://img.shields.io/badge/arXiv-2506.21448-b31b1b.svg?logo=arxiv&logoColor=white" alt="arXiv"/></a>
   &nbsp;
