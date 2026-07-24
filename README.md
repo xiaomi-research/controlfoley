@@ -24,8 +24,6 @@
   <a href="https://huggingface.co/YJX-Xiaomi/ControlFoley" style="text-decoration:none"><img src="https://img.shields.io/badge/HuggingFace-Models-orange?logo=huggingface" alt="Hugging Face"/></a>
   &nbsp;
   <a href="https://clawhub.ai/yjx-research/controlfoley-audio-generator" style="text-decoration:none"><img src="https://img.shields.io/badge/%F0%9F%A6%9E%20ClawHub-Skill-red" alt="ClawHub Skill"/></a>
-  &nbsp;
-  <a href="https://fal.ai/models/fal-ai/controlfoley" style="text-decoration:none"><img src="https://img.shields.io/badge/fal.ai-Model-E83E8C?labelColor=3A3A3A&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCIgdmlld0JveD0iMCAwIDEyOCAxMjgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbD0iI0ZGMEQ2QSIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNDkuNSA0aDI5YzMuNSAwIDYuMiAyLjggNi41IDYuMyAyLjQgMjYuMiAxMC41IDM0LjIgMzYuNyAzNi43IDMuNS4zIDYuMyAzIDYuMyA2LjV2MjljMCAzLjUtMi44IDYuMi02LjMgNi41LTI2LjIgMi40LTM0LjIgMTAuNS0zNi43IDM2LjctLjMgMy41LTMgNi4zLTYuNSA2LjNoLTI5Yy0zLjUgMC02LjItMi44LTYuNS02LjNDNDAuNiA5OS41IDMyLjUgOTEuNCA2LjMgODkgMi44IDg4LjcgMCA4NiAwIDgyLjV2LTI5YzAtMy41IDIuOC02LjIgNi4zLTYuNUMzMi41IDQ0LjYgNDAuNiAzNi41IDQzIDEwLjMgNDMuMyA2LjggNDYgNCA0OS41IDRaTTY0IDM0YTMwIDMwIDAgMSAwIDAgNjAgMzAgMzAgMCAwIDAgMC02MFoiLz48L3N2Zz4=" alt="fal.ai Model"/></a>
 </p>
 
 </div>
@@ -110,9 +108,6 @@ For more results of our model, visit [Project Page](https://yjx-research.github.
 
 - [YJX-Research/comfyui-controlfoley-official](https://github.com/YJX-Research/comfyui-controlfoley-official) - Run ControlFoley in ComfyUI with ready-to-use workflows and demo assets. If this integration is useful, please consider starring both the ComfyUI repository and this ControlFoley repository.
 
-<strong>fal.ai Deployment</strong> - ControlFoley is available on fal.ai for quick online trials and API-based experiments:
-
-- [fal.ai/controlfoley](https://fal.ai/models/fal-ai/controlfoley) - Try the hosted ControlFoley model endpoint on fal.ai.
 
 We welcome community workflows, integrations, tutorials, and deployment recipes that help more users build with ControlFoley.
 
