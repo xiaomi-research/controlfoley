@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://arxiv.org/abs/2604.15086" style="text-decoration:none"><img src="https://img.shields.io/badge/arXiv-2506.21448-b31b1b.svg?logo=arxiv&logoColor=white" alt="arXiv"/></a>
   &nbsp;
-  <a href="https://github.com/YJX-Research/comfyui-controlfoley-official" style="text-decoration:none"><img src="https://badgen.net/badge/ComfyUI/Official/blue?icon=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fhomarr-labs%2Fdashboard-icons%2Fsvg%2Fcomfyui.svg" alt="ComfyUI"/></a>
+  <a href="https://registry.comfy.org/publishers/yjx-research/nodes/ComfyUI-ControlFoley" style="text-decoration:none"><img src="https://badgen.net/badge/ComfyUI/Official/blue?icon=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fhomarr-labs%2Fdashboard-icons%2Fsvg%2Fcomfyui.svg" alt="ComfyUI"/></a>
   &nbsp;
   <a href="https://github.com/xiaomi-research/controlfoley" style="text-decoration:none"><img src="https://img.shields.io/badge/GitHub-Code-blue?logo=Github" alt="GitHub"/></a>
   &nbsp;
@@ -106,7 +106,8 @@ For more results of our model, visit [Project Page](https://yjx-research.github.
 
 <strong>Official ComfyUI Integration</strong> - The ControlFoley team officially publishes and maintains ComfyUI custom nodes and full-task workflows for V2A, TV2A, TC-V2A, AC-V2A, and T2A:
 
-- [YJX-Research/comfyui-controlfoley-official](https://github.com/YJX-Research/comfyui-controlfoley-official) - Run ControlFoley in ComfyUI with ready-to-use workflows and demo assets. If this integration is useful, please consider starring both the ComfyUI repository and this ControlFoley repository.
+- [Comfy Registry: ControlFoley Official](https://registry.comfy.org/publishers/yjx-research/nodes/ComfyUI-ControlFoley) - Install ControlFoley directly from Comfy Registry / ComfyUI Manager.
+- [GitHub: YJX-Research/comfyui-controlfoley-official](https://github.com/YJX-Research/comfyui-controlfoley-official) - Source code, workflows, examples, and documentation. If this integration is useful, please consider starring both the ComfyUI repository and this ControlFoley repository.
 
 
 We welcome community workflows, integrations, tutorials, and deployment recipes that help more users build with ControlFoley.

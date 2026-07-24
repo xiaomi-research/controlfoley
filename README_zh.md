@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://arxiv.org/abs/2604.15086" style="text-decoration:none"><img src="https://img.shields.io/badge/arXiv-2506.21448-b31b1b.svg?logo=arxiv&logoColor=white" alt="arXiv"/></a>
   &nbsp;
-  <a href="https://github.com/YJX-Research/comfyui-controlfoley-official" style="text-decoration:none"><img src="https://badgen.net/badge/ComfyUI/Official/blue?icon=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fhomarr-labs%2Fdashboard-icons%2Fsvg%2Fcomfyui.svg" alt="ComfyUI"/></a>
+  <a href="https://registry.comfy.org/publishers/yjx-research/nodes/ComfyUI-ControlFoley" style="text-decoration:none"><img src="https://badgen.net/badge/ComfyUI/Official/blue?icon=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fhomarr-labs%2Fdashboard-icons%2Fsvg%2Fcomfyui.svg" alt="ComfyUI"/></a>
   &nbsp;
   <a href="https://github.com/xiaomi-research/controlfoley" style="text-decoration:none"><img src="https://img.shields.io/badge/GitHub-Code-blue?logo=Github" alt="GitHub"/></a>
   &nbsp;
@@ -103,7 +103,8 @@ https://github.com/user-attachments/assets/344ac6ab-ecb6-41f8-88f5-728ae9ad236f
 
 <strong>官方 ComfyUI 集成</strong> - ControlFoley 团队官方发布并维护 ComfyUI 自定义节点与完整任务工作流，覆盖 V2A、TV2A、TC-V2A、AC-V2A 与 T2A：
 
-- [YJX-Research/comfyui-controlfoley-official](https://github.com/YJX-Research/comfyui-controlfoley-official) - 在 ComfyUI 中运行 ControlFoley，并使用开箱即用的工作流与示例素材。如果这个集成对你有帮助，欢迎给 ComfyUI 仓库和本 ControlFoley 仓库点亮 ⭐。
+- [Comfy Registry: ControlFoley Official](https://registry.comfy.org/publishers/yjx-research/nodes/ComfyUI-ControlFoley) - 可通过 Comfy Registry / ComfyUI Manager 直接安装 ControlFoley。
+- [GitHub: YJX-Research/comfyui-controlfoley-official](https://github.com/YJX-Research/comfyui-controlfoley-official) - 源代码、工作流、示例素材与文档。如果这个集成对你有帮助，欢迎给 ComfyUI 仓库和本 ControlFoley 仓库点亮 ⭐。
 
 
 欢迎社区贡献 workflows、integrations、tutorials 和 deployment recipes，让更多用户更方便地使用 ControlFoley。
