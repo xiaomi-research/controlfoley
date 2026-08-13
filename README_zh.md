@@ -210,16 +210,15 @@ ControlFoley 在视觉与文本冲突不断加剧的情况下，仍展现出强�
 - 在可控性与生成质量之间实现更优的平衡
 
 <div align="center">
-    <img src="assets/result2.png" width="60%">
+    <img src="assets/result2.png" width="80%">
 </div>
 
 🎧 <strong>AC-V2A</strong>
 
-ControlFoley 在 Greatest Hits 数据集上的所有评估指标中均取得了最佳性能：
+ControlFoley 在 Greatest Hits 数据集和 AC-VAS 数据集上的所有评估指标中均取得了最佳性能：
 
-- 音色相似度最佳 （Resemblyzer）  
-- 时间同步最佳 (DeSync)  
-- 音频质量最佳 (IS)  
+- 音色相似度最佳 （Resemblyzer、MFCC、CosSim_PaSST）  
+- 时间同步最佳 (DeSync)   
   
 值得注意的是，该模型的性能优于领域内专用基准模型 CondFoleyGen，展现出了强大的泛化能力。
 
