@@ -218,11 +218,10 @@ ControlFoley demonstrates strong textual controllability under increasing visual
 
 🎧 <strong>AC-V2A</strong>
 
-ControlFoley achieves the best performance across all evaluation metrics on the Greatest Hits dataset.
+ControlFoley achieves the best performance across all evaluation metrics on the Greatest Hits dataset and the AC-VAS dataset.
 
-- Better timbre similarity (Resemblyzer)  
+- Better timbre similarity (Resemblyzer、MFCC、CosSim_PaSST)  
 - Better synchronization (DeSync)  
-- Higher audio quality (IS)  
   
 Notably, it outperforms CondFoleyGen, a specialized in-domain baseline, demonstrating strong generalization ability.
 
