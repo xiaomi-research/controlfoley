@@ -287,34 +287,36 @@ python demo.py [选项]
 
 ### 📋 **使用示例**
 
+[`examples/`](examples/) 目录提供了全部支持任务的可用输入与生成结果。你可以直接预览结果，也可以使用以下命令复用其中的输入素材。
+
 - TV2A
 
 ```bash
-python demo.py --video "assets/001.mp4" --prompt "the skateboard wheels scraping and grinding on the ground." --duration 8.0 --output "./output"
+python demo.py --video "examples/tv2a/tv2a_video_input.mp4" --prompt "skateboarding" --duration 8.0 --output "./output"
 ```
 
 - TC-V2A
 
 ```bash
-python demo.py --video "assets/002.mp4" --prompt "man whistling." --duration 8.0 --output "./output"
+python demo.py --video "examples/tc_v2a/tcv2a_video_input.mp4" --prompt "thunder strike" --duration 6.0 --output "./output"
 ```
 
 - AC-V2A
 
 ```bash
-python demo.py --video "assets/003.mp4" --audio "assets/003.wav" --duration 8.0 --output "./output"
+python demo.py --video "examples/ac_v2a/acv2a_video_input.mp4" --audio "examples/ac_v2a/acv2a_reference.wav" --duration 5.0 --output "./output"
 ```
 
 - V2A
 
 ```bash
-python demo.py --video "assets/004.mp4" --duration 8.0 --output "./output"
+python demo.py --video "examples/v2a/v2a_video_input.mp4" --duration 6.0 --output "./output"
 ```
 
 - T2A
 
 ```bash
-python demo.py --prompt "A bird sings melodically in a forest." --duration 8.0 --output "./output"
+python demo.py --prompt "A bird sings melodically in a forest." --duration 10.0 --output "./output"
 ```
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
@@ -349,6 +351,8 @@ python demo.py --prompt "A bird sings melodically in a forest." --duration 8.0 -
 VGGSound，Kling-Audio-Eval，The Greatest Hits (<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" style="color:#007bff; text-decoration:none;">CC BY 4.0</a>)
 以及 MovieGen-Audio-Bench (<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" style="color:#dc3545; text-decoration:none;">CC BY-NC 4.0</a>)。<br>
 所有数据仅用于<strong>学术及非商业展示用途</strong>。
+
+Demo 媒体来源：音频来自 Pixabay；视频来自 Pexels 和即梦 AI 生成内容。
 
 感谢以下项目的贡献：<br>
 [stable-audio-tools](https://github.com/Stability-AI/stable-audio-tools)，[MMAudio](https://github.com/hkchengrex/MMAudio)，[Make-An-Audio 2](https://github.com/bytedance/Make-An-Audio-2)，[Synchformer](https://github.com/v-iashin/Synchformer)以及 [audiocraft](https://github.com/facebookresearch/audiocraft)。<br>

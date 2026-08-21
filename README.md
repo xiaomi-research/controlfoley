@@ -290,34 +290,36 @@ Options:
 
 ### 📋 **Usage Examples**
 
+Ready-to-use inputs and generated outputs for all supported tasks are available in [`examples/`](examples/). You can preview the results directly or reuse the inputs with the commands below.
+
 - TV2A
 
 ```bash
-python demo.py --video "assets/001.mp4" --prompt "the skateboard wheels scraping and grinding on the ground." --duration 8.0 --output "./output"
+python demo.py --video "examples/tv2a/tv2a_video_input.mp4" --prompt "skateboarding" --duration 8.0 --output "./output"
 ```
 
 - TC-V2A
 
 ```bash
-python demo.py --video "assets/002.mp4" --prompt "man whistling." --duration 8.0 --output "./output"
+python demo.py --video "examples/tc_v2a/tcv2a_video_input.mp4" --prompt "thunder strike" --duration 6.0 --output "./output"
 ```
 
 - AC-V2A
 
 ```bash
-python demo.py --video "assets/003.mp4" --audio "assets/003.wav" --duration 8.0 --output "./output"
+python demo.py --video "examples/ac_v2a/acv2a_video_input.mp4" --audio "examples/ac_v2a/acv2a_reference.wav" --duration 5.0 --output "./output"
 ```
 
 - V2A
 
 ```bash
-python demo.py --video "assets/004.mp4" --duration 8.0 --output "./output"
+python demo.py --video "examples/v2a/v2a_video_input.mp4" --duration 6.0 --output "./output"
 ```
 
 - T2A
 
 ```bash
-python demo.py --prompt "A bird sings melodically in a forest." --duration 8.0 --output "./output"
+python demo.py --prompt "A bird sings melodically in a forest." --duration 10.0 --output "./output"
 ```
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
@@ -352,6 +354,8 @@ This project uses the following datasets:<br>
 VGGSound, Kling-Audio-Eval, The Greatest Hits (<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" style="color:#007bff; text-decoration:none;">CC BY 4.0</a>),
 and MovieGen-Audio-Bench (<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" style="color:#dc3545; text-decoration:none;">CC BY-NC 4.0</a>).<br>
 All resources are used for <strong>academic and non-commercial demonstration purposes only</strong>.
+
+Demo media credits: audio from Pixabay; video from Pexels and Jimeng AI-generated content.
 
 This project is inspired by the following works:<br>
 [stable-audio-tools](https://github.com/Stability-AI/stable-audio-tools), [MMAudio](https://github.com/hkchengrex/MMAudio), [Make-An-Audio 2](https://github.com/bytedance/Make-An-Audio-2), [Synchformer](https://github.com/v-iashin/Synchformer), and [audiocraft](https://github.com/facebookresearch/audiocraft).<br>
