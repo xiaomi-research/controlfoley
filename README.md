@@ -91,6 +91,7 @@ For more results of our model, visit [Project Page](https://yjx-research.github.
 - [2026-07] ControlFoley has been accepted to ACM MM 2026.
 - [2026-07] Official ControlFoley-maintained [ComfyUI nodes and full-task workflows](https://github.com/YJX-Research/comfyui-controlfoley-official) for V2A, TV2A, TC-V2A, AC-V2A, and T2A are released.
 - [2026-08] The official interactive [Hugging Face Space](https://huggingface.co/spaces/YJX-Xiaomi/controlfoley) is now live with refreshed examples covering V2A, TV2A, TC-V2A, AC-V2A, and T2A.
+- [2026-08] [audio.cpp](https://github.com/0xShug0/audio.cpp) v0.7 adds ControlFoley support, providing native C++ inference and GGUF model packages.
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
 
@@ -103,6 +104,7 @@ For more results of our model, visit [Project Page](https://yjx-research.github.
 - [x] Release skill.
 - [x] Release official ControlFoley-maintained ComfyUI nodes and full-task workflows.
 - [x] Launch the official Hugging Face Space with full-task examples.
+- [x] Community integration: native C++ inference and GGUF support through audio.cpp.
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
 
@@ -111,6 +113,11 @@ For more results of our model, visit [Project Page](https://yjx-research.github.
 <strong>Official ControlFoley Space on Hugging Face</strong> - The interactive demo was originally created by [@apolinario](https://github.com/apolinario) from Hugging Face and is now maintained by the ControlFoley team:
 
 - [Hugging Face Space: YJX-Xiaomi/controlfoley](https://huggingface.co/spaces/YJX-Xiaomi/controlfoley) - Try V2A, TV2A, TC-V2A, AC-V2A, and T2A directly in the browser.
+
+<strong>audio.cpp Integration</strong> - [audio.cpp](https://github.com/0xShug0/audio.cpp), maintained by [@0xShug0](https://github.com/0xShug0), added ControlFoley in release 0.7 with native C++ inference and GGUF support:
+
+- [GitHub: 0xShug0/audio.cpp](https://github.com/0xShug0/audio.cpp) - Run ControlFoley through the portable C++ inference framework.
+- [Hugging Face: ControlFoley-GGUF](https://huggingface.co/audio-cpp/audio.cpp-gguf/tree/main/ControlFoley-GGUF) - Download the converted GGUF model package.
 
 <strong>Official ComfyUI Integration</strong> - The ControlFoley team officially publishes and maintains ComfyUI custom nodes and full-task workflows for V2A, TV2A, TC-V2A, AC-V2A, and T2A:
 

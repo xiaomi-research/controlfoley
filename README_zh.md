@@ -88,6 +88,7 @@ https://github.com/user-attachments/assets/344ac6ab-ecb6-41f8-88f5-728ae9ad236f
 - [2026-07] ControlFoley 已被 ACM MM 2026 接收。
 - [2026-07] 由 ControlFoley 官方维护的 [ComfyUI 节点与完整任务工作流](https://github.com/YJX-Research/comfyui-controlfoley-official) 已发布，覆盖 V2A、TV2A、TC-V2A、AC-V2A 与 T2A。
 - [2026-08] 官方交互式 [Hugging Face Space](https://huggingface.co/spaces/YJX-Xiaomi/controlfoley) 已上线，并更新了覆盖 V2A、TV2A、TC-V2A、AC-V2A 与 T2A 的完整任务示例。
+- [2026-08] [audio.cpp](https://github.com/0xShug0/audio.cpp) v0.7 已正式支持 ControlFoley，提供原生 C++ 推理与 GGUF 模型包。
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
 
@@ -100,6 +101,7 @@ https://github.com/user-attachments/assets/344ac6ab-ecb6-41f8-88f5-728ae9ad236f
 - [x] 发布 skill。
 - [x] 发布由 ControlFoley 官方维护的 ComfyUI 节点与完整任务工作流。
 - [x] 发布包含完整任务示例的官方 Hugging Face Space。
+- [x] 社区集成：通过 audio.cpp 提供原生 C++ 推理与 GGUF 支持。
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
 
@@ -108,6 +110,11 @@ https://github.com/user-attachments/assets/344ac6ab-ecb6-41f8-88f5-728ae9ad236f
 <strong>ControlFoley 官方 Hugging Face Space</strong> - 该交互式 Demo 最初由 Hugging Face 的 [@apolinario](https://github.com/apolinario) 创建，现由 ControlFoley 团队维护：
 
 - [Hugging Face Space: YJX-Xiaomi/controlfoley](https://huggingface.co/spaces/YJX-Xiaomi/controlfoley) - 可直接在浏览器中体验 V2A、TV2A、TC-V2A、AC-V2A 与 T2A。
+
+<strong>audio.cpp 集成</strong> - 由 [@0xShug0](https://github.com/0xShug0) 维护的 [audio.cpp](https://github.com/0xShug0/audio.cpp) 已在 v0.7 中加入 ControlFoley，提供原生 C++ 推理与 GGUF 支持：
+
+- [GitHub: 0xShug0/audio.cpp](https://github.com/0xShug0/audio.cpp) - 通过可移植的 C++ 推理框架运行 ControlFoley。
+- [Hugging Face: ControlFoley-GGUF](https://huggingface.co/audio-cpp/audio.cpp-gguf/tree/main/ControlFoley-GGUF) - 下载转换后的 GGUF 模型包。
 
 <strong>官方 ComfyUI 集成</strong> - ControlFoley 团队官方发布并维护 ComfyUI 自定义节点与完整任务工作流，覆盖 V2A、TV2A、TC-V2A、AC-V2A 与 T2A：
 
