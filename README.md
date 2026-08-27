@@ -108,7 +108,7 @@ For more results of our model, visit [Project Page](https://yjx-research.github.
 
 ## 🤝 **Community Contributions**
 
-<strong>Official Hugging Face Space</strong> - The interactive demo was initially created by [@apolinario](https://github.com/apolinario) from Hugging Face, transferred to the official [YJX-Xiaomi](https://huggingface.co/YJX-Xiaomi) account with a ZeroGPU grant, and is now maintained by the ControlFoley team with refreshed full-task examples:
+<strong>Official ControlFoley Space on Hugging Face</strong> - The interactive demo was initially created by [@apolinario](https://github.com/apolinario) from Hugging Face, transferred to the official [YJX-Xiaomi](https://huggingface.co/YJX-Xiaomi) account with a ZeroGPU grant, and is now maintained by the ControlFoley team with refreshed full-task examples:
 
 - [Hugging Face Space: YJX-Xiaomi/controlfoley](https://huggingface.co/spaces/YJX-Xiaomi/controlfoley) - Try V2A, TV2A, TC-V2A, AC-V2A, and T2A directly in the browser.
 

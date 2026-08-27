@@ -105,7 +105,7 @@ https://github.com/user-attachments/assets/344ac6ab-ecb6-41f8-88f5-728ae9ad236f
 
 ## 🤝 **社区贡献**
 
-<strong>官方 Hugging Face Space</strong> - 该交互式 Demo 最初由 Hugging Face 的 [@apolinario](https://github.com/apolinario) 创建，并随 ZeroGPU grant 移交至官方 [YJX-Xiaomi](https://huggingface.co/YJX-Xiaomi) 账号；现由 ControlFoley 团队维护并更新了完整任务示例：
+<strong>ControlFoley 官方 Hugging Face Space</strong> - 该交互式 Demo 最初由 Hugging Face 的 [@apolinario](https://github.com/apolinario) 创建，并随 ZeroGPU grant 移交至官方 [YJX-Xiaomi](https://huggingface.co/YJX-Xiaomi) 账号；现由 ControlFoley 团队维护并更新了完整任务示例：
 
 - [Hugging Face Space: YJX-Xiaomi/controlfoley](https://huggingface.co/spaces/YJX-Xiaomi/controlfoley) - 可直接在浏览器中体验 V2A、TV2A、TC-V2A、AC-V2A 与 T2A。
 
