@@ -21,7 +21,7 @@
   &nbsp;
   <a href="https://huggingface.co/YJX-Xiaomi/ControlFoley" style="text-decoration:none"><img src="https://img.shields.io/badge/HuggingFace-Models-orange?logo=huggingface" alt="Hugging Face"/></a>
   &nbsp;
-  <a href="https://huggingface.co/spaces/YJX-Xiaomi/controlfoley" style="text-decoration:none"><img src="https://img.shields.io/badge/HuggingFace-Space-0ea5e9?logo=huggingface&logoColor=yellow" alt="Hugging Face Space"/></a>
+  <a href="https://huggingface.co/spaces/YJX-Xiaomi/controlfoley" style="text-decoration:none"><img src="https://img.shields.io/badge/HuggingFace-Space-0ea5e9?logo=huggingface" alt="Hugging Face Space"/></a>
   &nbsp;
   <a href="https://clawhub.ai/yjx-research/controlfoley-audio-generator" style="text-decoration:none"><img src="https://img.shields.io/badge/%F0%9F%A6%9E%20ClawHub-Skill-red" alt="ClawHub Skill"/></a>
 </p>
@@ -87,6 +87,7 @@ https://github.com/user-attachments/assets/344ac6ab-ecb6-41f8-88f5-728ae9ad236f
 - [2026-04] 发布 skill [ControlFoley Audio Generator](https://clawhub.ai/yjx-research/controlfoley-audio-generator)。
 - [2026-07] ControlFoley 已被 ACM MM 2026 接收。
 - [2026-07] 由 ControlFoley 官方维护的 [ComfyUI 节点与完整任务工作流](https://github.com/YJX-Research/comfyui-controlfoley-official) 已发布，覆盖 V2A、TV2A、TC-V2A、AC-V2A 与 T2A。
+- [2026-08] 官方交互式 [Hugging Face Space](https://huggingface.co/spaces/YJX-Xiaomi/controlfoley) 已上线，并更新了覆盖 V2A、TV2A、TC-V2A、AC-V2A 与 T2A 的完整任务示例。
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
 
@@ -98,10 +99,15 @@ https://github.com/user-attachments/assets/344ac6ab-ecb6-41f8-88f5-728ae9ad236f
 - [x] 发布在线推理代码（可在项目页面获取）。
 - [x] 发布 skill。
 - [x] 发布由 ControlFoley 官方维护的 ComfyUI 节点与完整任务工作流。
+- [x] 发布包含完整任务示例的官方 Hugging Face Space。
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
 
 ## 🤝 **社区贡献**
+
+<strong>官方 Hugging Face Space</strong> - 该交互式 Demo 最初由 Hugging Face 的 [@apolinario](https://github.com/apolinario) 创建，并随 ZeroGPU grant 移交至官方 [YJX-Xiaomi](https://huggingface.co/YJX-Xiaomi) 账号；现由 ControlFoley 团队维护并更新了完整任务示例：
+
+- [Hugging Face Space: YJX-Xiaomi/controlfoley](https://huggingface.co/spaces/YJX-Xiaomi/controlfoley) - 可直接在浏览器中体验 V2A、TV2A、TC-V2A、AC-V2A 与 T2A。
 
 <strong>官方 ComfyUI 集成</strong> - ControlFoley 团队官方发布并维护 ComfyUI 自定义节点与完整任务工作流，覆盖 V2A、TV2A、TC-V2A、AC-V2A 与 T2A：
 

@@ -23,7 +23,7 @@
   &nbsp;
   <a href="https://huggingface.co/YJX-Xiaomi/ControlFoley" style="text-decoration:none"><img src="https://img.shields.io/badge/HuggingFace-Models-orange?logo=huggingface" alt="Hugging Face"/></a>
   &nbsp;
-  <a href="https://huggingface.co/spaces/YJX-Xiaomi/controlfoley" style="text-decoration:none"><img src="https://img.shields.io/badge/HuggingFace-Space-0ea5e9?logo=huggingface&logoColor=yellow" alt="Hugging Face Space"/></a>
+  <a href="https://huggingface.co/spaces/YJX-Xiaomi/controlfoley" style="text-decoration:none"><img src="https://img.shields.io/badge/HuggingFace-Space-0ea5e9?logo=huggingface" alt="Hugging Face Space"/></a>
   &nbsp;
   <a href="https://clawhub.ai/yjx-research/controlfoley-audio-generator" style="text-decoration:none"><img src="https://img.shields.io/badge/%F0%9F%A6%9E%20ClawHub-Skill-red" alt="ClawHub Skill"/></a>
 </p>
@@ -90,6 +90,7 @@ For more results of our model, visit [Project Page](https://yjx-research.github.
 - [2026-04] Skill [ControlFoley Audio Generator](https://clawhub.ai/yjx-research/controlfoley-audio-generator) is released on ClawHub!
 - [2026-07] ControlFoley has been accepted to ACM MM 2026.
 - [2026-07] Official ControlFoley-maintained [ComfyUI nodes and full-task workflows](https://github.com/YJX-Research/comfyui-controlfoley-official) for V2A, TV2A, TC-V2A, AC-V2A, and T2A are released.
+- [2026-08] The official interactive [Hugging Face Space](https://huggingface.co/spaces/YJX-Xiaomi/controlfoley) is now live with refreshed examples covering V2A, TV2A, TC-V2A, AC-V2A, and T2A.
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
 
@@ -101,10 +102,15 @@ For more results of our model, visit [Project Page](https://yjx-research.github.
 - [x] Launch online inference demo (available on project page).
 - [x] Release skill.
 - [x] Release official ControlFoley-maintained ComfyUI nodes and full-task workflows.
+- [x] Launch the official Hugging Face Space with full-task examples.
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
 
 ## 🤝 **Community Contributions**
+
+<strong>Official Hugging Face Space</strong> - The interactive demo was initially created by [@apolinario](https://github.com/apolinario) from Hugging Face, transferred to the official [YJX-Xiaomi](https://huggingface.co/YJX-Xiaomi) account with a ZeroGPU grant, and is now maintained by the ControlFoley team with refreshed full-task examples:
+
+- [Hugging Face Space: YJX-Xiaomi/controlfoley](https://huggingface.co/spaces/YJX-Xiaomi/controlfoley) - Try V2A, TV2A, TC-V2A, AC-V2A, and T2A directly in the browser.
 
 <strong>Official ComfyUI Integration</strong> - The ControlFoley team officially publishes and maintains ComfyUI custom nodes and full-task workflows for V2A, TV2A, TC-V2A, AC-V2A, and T2A:
 
