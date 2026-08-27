@@ -21,6 +21,8 @@
   &nbsp;
   <a href="https://huggingface.co/YJX-Xiaomi/ControlFoley" style="text-decoration:none"><img src="https://img.shields.io/badge/HuggingFace-Models-orange?logo=huggingface" alt="Hugging Face"/></a>
   &nbsp;
+  <a href="https://huggingface.co/spaces/YJX-Xiaomi/controlfoley" style="text-decoration:none"><img src="https://img.shields.io/badge/HuggingFace-Space-0ea5e9?logo=huggingface&logoColor=yellow" alt="Hugging Face Space"/></a>
+  &nbsp;
   <a href="https://clawhub.ai/yjx-research/controlfoley-audio-generator" style="text-decoration:none"><img src="https://img.shields.io/badge/%F0%9F%A6%9E%20ClawHub-Skill-red" alt="ClawHub Skill"/></a>
 </p>
 
