@@ -118,7 +118,7 @@ https://github.com/user-attachments/assets/344ac6ab-ecb6-41f8-88f5-728ae9ad236f
 - [GitHub: 0xShug0/audio.cpp](https://github.com/0xShug0/audio.cpp) - 通过可移植的 C++ 推理框架运行 ControlFoley。
 - [Hugging Face: ControlFoley-GGUF](https://huggingface.co/audio-cpp/audio.cpp-gguf/tree/main/ControlFoley-GGUF) - 下载转换后的 GGUF 模型包。
 
-<strong>🧩 官方 ComfyUI 集成</strong> - ControlFoley 团队官方发布并维护 ComfyUI 自定义节点与完整任务工作流，覆盖 V2A、TV2A、TC-V2A、AC-V2A 与 T2A：
+<strong><img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/comfyui.svg" width="18" alt="ComfyUI" /> 官方 ComfyUI 集成</strong> - ControlFoley 团队官方发布并维护 ComfyUI 自定义节点与完整任务工作流，覆盖 V2A、TV2A、TC-V2A、AC-V2A 与 T2A：
 
 - [Comfy Registry: ControlFoley Official](https://registry.comfy.org/publishers/yjx-research/nodes/ComfyUI-ControlFoley) - 可通过 Comfy Registry / ComfyUI Manager 直接安装 ControlFoley。
 - [GitHub: YJX-Research/comfyui-controlfoley-official](https://github.com/YJX-Research/comfyui-controlfoley-official) - 源代码、工作流、示例素材与文档。如果这个集成对你有帮助，欢迎给 ComfyUI 仓库和本 ControlFoley 仓库点亮 ⭐。

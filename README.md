@@ -121,7 +121,7 @@ For more results of our model, visit [Project Page](https://yjx-research.github.
 - [GitHub: 0xShug0/audio.cpp](https://github.com/0xShug0/audio.cpp) - Run ControlFoley through the portable C++ inference framework.
 - [Hugging Face: ControlFoley-GGUF](https://huggingface.co/audio-cpp/audio.cpp-gguf/tree/main/ControlFoley-GGUF) - Download the converted GGUF model package.
 
-<strong>🧩 Official ComfyUI Integration</strong> - The ControlFoley team officially publishes and maintains ComfyUI custom nodes and full-task workflows for V2A, TV2A, TC-V2A, AC-V2A, and T2A:
+<strong><img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/comfyui.svg" width="18" alt="ComfyUI" /> Official ComfyUI Integration</strong> - The ControlFoley team officially publishes and maintains ComfyUI custom nodes and full-task workflows for V2A, TV2A, TC-V2A, AC-V2A, and T2A:
 
 - [Comfy Registry: ControlFoley Official](https://registry.comfy.org/publishers/yjx-research/nodes/ComfyUI-ControlFoley) - Install ControlFoley directly from Comfy Registry / ComfyUI Manager.
 - [GitHub: YJX-Research/comfyui-controlfoley-official](https://github.com/YJX-Research/comfyui-controlfoley-official) - Source code, workflows, examples, and documentation. If this integration is useful, please consider starring both the ComfyUI repository and this ControlFoley repository.
