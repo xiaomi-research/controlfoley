@@ -112,16 +112,16 @@ For more results of our model, visit [Project Page](https://yjx-research.github.
 
 ## 🤝 **Community Contributions**
 
-<strong>Official ControlFoley Space on Hugging Face</strong> - The interactive demo was originally created by [@apolinario](https://github.com/apolinario) from Hugging Face and is now maintained by the ControlFoley team:
+<strong>🤗 Official ControlFoley Space on Hugging Face</strong> - The interactive demo was originally created by [@apolinario](https://github.com/apolinario) from Hugging Face and is now maintained by the ControlFoley team:
 
 - [Hugging Face Space: YJX-Xiaomi/controlfoley](https://huggingface.co/spaces/YJX-Xiaomi/controlfoley) - Try V2A, TV2A, TC-V2A, AC-V2A, and T2A directly in the browser.
 
-<strong>audio.cpp Integration</strong> - [audio.cpp](https://github.com/0xShug0/audio.cpp), maintained by [@0xShug0](https://github.com/0xShug0), added ControlFoley in release 0.7 with native C++ inference and GGUF support:
+<strong>⚙️ audio.cpp Integration</strong> - [audio.cpp](https://github.com/0xShug0/audio.cpp), maintained by [@0xShug0](https://github.com/0xShug0), added ControlFoley in release 0.7 with native C++ inference and GGUF support:
 
 - [GitHub: 0xShug0/audio.cpp](https://github.com/0xShug0/audio.cpp) - Run ControlFoley through the portable C++ inference framework.
 - [Hugging Face: ControlFoley-GGUF](https://huggingface.co/audio-cpp/audio.cpp-gguf/tree/main/ControlFoley-GGUF) - Download the converted GGUF model package.
 
-<strong>Official ComfyUI Integration</strong> - The ControlFoley team officially publishes and maintains ComfyUI custom nodes and full-task workflows for V2A, TV2A, TC-V2A, AC-V2A, and T2A:
+<strong>🧩 Official ComfyUI Integration</strong> - The ControlFoley team officially publishes and maintains ComfyUI custom nodes and full-task workflows for V2A, TV2A, TC-V2A, AC-V2A, and T2A:
 
 - [Comfy Registry: ControlFoley Official](https://registry.comfy.org/publishers/yjx-research/nodes/ComfyUI-ControlFoley) - Install ControlFoley directly from Comfy Registry / ComfyUI Manager.
 - [GitHub: YJX-Research/comfyui-controlfoley-official](https://github.com/YJX-Research/comfyui-controlfoley-official) - Source code, workflows, examples, and documentation. If this integration is useful, please consider starring both the ComfyUI repository and this ControlFoley repository.
